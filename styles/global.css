@@ -74,13 +74,26 @@ html,body{
     letter-spacing: 2px;
 }
 
+.links_container .link_item.name{
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
 .links_container .link_icon{
     color: black;
     margin-right: 30px;
+    color: rgb(201, 136, 136);
 }
+
+a:link{ color: black; }
+a:visited{ color: black; }
+a:hover{ color: black; }
+a:active{ color: black; }
 
 .links_container .link_item:hover{
     transform: scale(1.1);
+    font-size: 110%;
 }
 
 .links_container .link_item .link_icon{
@@ -109,7 +122,9 @@ html,body{
 }
 
 
-
+.row{
+    padding: 10px;
+}
 .collink{
     display: flex;
     justify-content: center;
@@ -119,4 +134,9 @@ html,body{
     width: 100%;
     border-radius: 50%;
     max-width: 500px;
+}
+
+
+*{
+    box-sizing: border-box;
 }
