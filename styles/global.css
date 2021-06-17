@@ -1,0 +1,107 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+
+
+
+
+
+/*
+*
+*   LINK CONTAINER
+*
+*/
+.links_container{
+    font-family: 'Roboto', sans-serif;
+    min-width: 250px;
+    position: relative;
+    padding: 50px 20px;
+}
+
+.links_container .bar{
+    height: 100%;
+    width: 3px;
+    background: white;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    z-index: 0;
+}
+
+.links_container .link_item{
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    transition: .2s;
+    z-index: 3;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.links_container .link_icon{
+    color: black;
+}
+
+.links_container .link_item:hover{
+    transform: scale(1.1);
+}
+
+.links_container .link_item .link_icon{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+/*
+*
+*   HEADER
+*
+*/
+.header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/images/pexels-sora-shimazaki-5926382.jpg');
+    background-size: cover;
+}
