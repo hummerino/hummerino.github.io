@@ -44,7 +44,8 @@ html,body{
 */
 .links_container{
     font-family: 'Roboto', sans-serif;
-    min-width: 250px;
+    min-width: 400px;
+    max-width: 550px;
     position: relative;
     padding: 50px 20px;
 }
@@ -75,6 +76,7 @@ html,body{
 
 .links_container .link_icon{
     color: black;
+    margin-right: 30px;
 }
 
 .links_container .link_item:hover{
@@ -102,6 +104,19 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../assets/images/pexels-sora-shimazaki-5926382.jpg');
+    background: url('../assets/images/bg-1.jpg');
     background-size: cover;
+}
+
+
+
+.collink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col img{
+    width: 100%;
+    border-radius: 50%;
+    max-width: 500px;
 }
