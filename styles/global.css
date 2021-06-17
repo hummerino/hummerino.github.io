@@ -122,6 +122,12 @@ a:active{ color: black; }
 }
 
 
+.header-device{
+    background: url('../assets/images/bg-1.jpg');
+    background-size: cover;
+}
+
+
 .row{
     padding: 10px;
 }
@@ -139,4 +145,56 @@ a:active{ color: black; }
 
 *{
     box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 576px) { 
+    .header{
+        visibility: 0;
+        display: none;
+    }
+
+    .header-device{
+        display: block;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) { 
+    .header{
+        visibility: 0;
+        display: none;
+    }
+
+    .header-device{
+        display: block;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+    .header{
+        visibility: 1;
+        display : flex;
+    }
+
+    .header-device{
+        visibility: 0;
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) { 
+
 }
